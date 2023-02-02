@@ -1,0 +1,37 @@
+{
+    "name": "@ivoyant/state-machine-async",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "State Machine Async",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "@ivoyant/component-loader": "^1.0.39",
+        "@storybook/addon-knobs": "^6.4.0",
+        "@storybook/react": "^6.5.15",
+        "@xstate/react": "^3.0.2",
+        "axios": "^1.2.2",
+        "lodash": "4.17.21",
+        "lodash.clonedeep": "^4.5.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "squirrelly": "^8.0.8",
+        "xstate": "^4.13.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2",
+        "@ivoyant/component-template": "^1.0.0"
+    }
+}
